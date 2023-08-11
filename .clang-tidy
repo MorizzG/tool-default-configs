@@ -1,0 +1,18 @@
+---
+Checks: '
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  bugprone-use-after-move,
+  cppcoreguidelines-*,
+  google-explicit-constructor,
+  llvm-header-guard,
+  llvm-namespace-comment,
+  misc-header-include-cycle,
+  misc-include-cleaner,
+  misc-unused-using-decls,
+  misc-use-anonymous-namespace,
+  modernize-*,-modernize-use-nodiscard,-modernize-use-trailing-return-type,
+  readability-*,
+  '
+...
+
