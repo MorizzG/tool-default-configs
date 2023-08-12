@@ -12,7 +12,7 @@ Checks: '
   misc-unused-using-decls,
   misc-use-anonymous-namespace,
   modernize-*,-modernize-use-nodiscard,-modernize-use-trailing-return-type,
-  readability-*,
+  readability-*,-readability-identifier-length,
   '
 ...
 
