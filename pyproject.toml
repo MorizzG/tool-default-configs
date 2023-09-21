@@ -18,7 +18,7 @@ group_by_package = true
 combine_as_imports = true
 
 [tool.ruff]
-line-length = 120
+line-length = 100
 select = ["E", "F"]
 target-version = "py311"
 
