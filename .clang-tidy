@@ -1,27 +1,23 @@
 ---
 Checks: '
-  bugprone-branch-clone,
-  bugprone-reserved-identifier,
-  bugprone-use-after-move,
-  clang-diagnostic-*,
+  bugprone-*,
   clang-analyzer-*,
+  clang-diagnostic-*,
   cppcoreguidelines-*,
-  google-explicit-constructor,
-  google-global-names-in-headers,
-  google-readability-casting,
-  google-runtime-int,
-  llvm-header-guard,
-  llvm-include-order,
-  llvm-namespace-comment,
+  google-*,
+  llvm-*,
   misc-*,
-  -misc-no-recursion,
   modernize-*,
-  -modernize-use-nodiscard,
-  -modernize-use-trailing-return-type,
   performance-*,
   readability-*,
+  
+  -misc-no-recursion,
+  -modernize-use-nodiscard,
+  -modernize-use-trailing-return-type,
+
+  -readability-else-after-return,
   -readability-identifier-length,
-  '
+'
 
 WarningsAsErrors: '*'
 ...
