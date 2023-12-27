@@ -10,6 +10,8 @@ Checks: '
   modernize-*,
   performance-*,
   readability-*,
+
+  -cppcoreguidelines-avoid-magic-numbers,
   
   -misc-no-recursion,
   -modernize-use-nodiscard,
@@ -17,6 +19,7 @@ Checks: '
 
   -readability-else-after-return,
   -readability-identifier-length,
+  -readability-magic-numbers,
 '
 
 WarningsAsErrors: '*'
