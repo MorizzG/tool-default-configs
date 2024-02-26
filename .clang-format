@@ -6,5 +6,9 @@ ColumnLimit: 100
 ---
 Language: Cpp
 
+AllowShortFunctionsOnASingleLine: Inline
+
+IndentCaseLabels: false
+
 DerivePointerAlignment: false
 PointerAlignment: Left
