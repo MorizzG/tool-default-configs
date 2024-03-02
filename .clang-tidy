@@ -11,7 +11,6 @@ Checks: '
   performance-*,
   readability-*,
 
-<<<<<<< HEAD
   -bugprone-easily-swappable-parameters,
 
   -cppcoreguidelines-avoid-magic-numbers,
@@ -19,10 +18,6 @@ Checks: '
 
   -google-objc-function-naming,
   -google-readability-todo,
-||||||| e0a9d73
-=======
-  -cppcoreguidelines-avoid-magic-numbers,
->>>>>>> f1af0a699020eeef4d24ac8186e577752169e2c6
   
   -misc-no-recursion,
   -modernize-use-nodiscard,
