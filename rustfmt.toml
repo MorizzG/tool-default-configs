@@ -1,2 +1,13 @@
 imports_granularity = "Module"
 group_imports = "StdExternalCrate"
+
+# Activation of features, almost objectively better ;)
+use_try_shorthand = true
+use_field_init_shorthand = true
+
+# Nightly only. Will not run in CI, but please format with these locally
+wrap_comments = true
+normalize_comments = true
+comment_width = 100
+
+condense_wildcard_suffixes = true

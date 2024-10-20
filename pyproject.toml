@@ -6,13 +6,13 @@ line-length = 100
 [tool.isort]
 line_length = 100
 profile = "black"
-known_typing = "typing"  # types,typing_extensions,mypy,mypy_extensions
+known_typing = "typing" # types,typing_extensions,mypy,mypy_extensions
 # default: "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
 sections = "FUTURE,TYPING,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
 # skip_glob = [""]  # files/folders/... to skip
 # known_first_party = [""]  # packages that are forced as first party
 # src_paths = [""]  # files inside these paths are treated as first party
-multi_line_output = 5
+# multi_line_output = 5
 float_to_top = true
 group_by_package = true
 combine_as_imports = true
