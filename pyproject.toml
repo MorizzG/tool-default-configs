@@ -19,8 +19,11 @@ combine_as_imports = true
 
 [tool.ruff]
 line-length = 100
-select = ["E", "F"]
 target-version = "py311"
 
-[tool.ruff.per-file-ignores]
+[tool.ruff.lint]
+select = ["E", "F"]
+
+
+[tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]
